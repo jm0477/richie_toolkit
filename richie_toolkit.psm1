@@ -11,6 +11,7 @@ function Enable-RDP{
         $ErrorMessage = $_.Exception.Message
         write-host "$ErrorMessage = $_.Exception.Message" -ForegroundColor Red
     }
+    #new add comments
 
 }
 
