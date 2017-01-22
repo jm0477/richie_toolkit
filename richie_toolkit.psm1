@@ -12,6 +12,7 @@ function Enable-RDP{
         write-host "$ErrorMessage = $_.Exception.Message" -ForegroundColor Red
     }
     #new add comments
+    #new add commments twice
 
 }
 
